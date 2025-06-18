@@ -42,6 +42,20 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+  <style>
+    #BibTeX pre {
+      overflow: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    #BibTeX pre::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  </style>
 </head>
 
 <body>
@@ -294,7 +308,15 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre style="white-space: pre-warp; word-wrap: break-word;"><code>@misc{li2025blackboxestransparentminds,
+      title={From Black Boxes to Transparent Minds: Evaluating and Enhancing the Theory of Mind in Multimodal Large Language Models}, 
+      author={Xinyang Li and Siqi Liu and Bochao Zou and Jiansheng Chen and Huimin Ma},
+      year={2025},
+      eprint={2506.14224},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2506.14224}, 
+}</code></pre>
     </div>
   </section>
   <!--End BibTex citation -->
